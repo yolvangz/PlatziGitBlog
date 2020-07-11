@@ -31,6 +31,7 @@ body{
 .post-seeMore-link{
 	text-align: right;
 	margin-bottom: 0;
+	font-size: 14px;
 }
 .post-seeMore-link a{
 	color: #8D0000;
