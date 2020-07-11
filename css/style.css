@@ -16,3 +16,17 @@ body{
 .post h1{
 	font-size: 20px;
 }
+
+.post-seeMore-link{
+	text-align: right;
+	margin-bottom: 0;
+}
+.post-seeMore-link a{
+	color: #8D0000;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 3em;
+}
+.post-seeMore-link a:hover{
+	text-decoration: underline;
+}
