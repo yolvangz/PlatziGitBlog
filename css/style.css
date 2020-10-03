@@ -22,7 +22,12 @@ body{
 	margin: 0 auto;
 }
 
-/* ---------------- Cabecero ------------------- */
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ------------------- Header ---------------- */
 .cabecero{
 	background-color: var(--color-blue);
 	color: var(--color-white);
@@ -98,5 +103,30 @@ body{
 }
 
 .post-seeMore-link a:hover{
+	text-decoration: underline;
+}
+
+/* ----------------- Footer ------------------- */
+#footer{
+	background-color: var(--color-blue);
+	color: var(--color-white);
+	padding: 0.75em;
+}
+#footer .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#footer .container nav ul{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	padding: 0;
+}
+#footer .container nav li{
+	margin-left: 10px;
+}
+#footer .container nav a:hover{
 	text-decoration: underline;
 }
