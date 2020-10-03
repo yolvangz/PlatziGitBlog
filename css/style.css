@@ -75,7 +75,8 @@ body{
 .post {
 	margin: 1em 0;
 	padding: 1em;
-	border: 1px solid #000;
+	border: 1px solid var(--color-blue);
+	border-radius: 0.5em;
 }
 
 .post h1{
